@@ -1,0 +1,13 @@
+#root {
+  width: 325px;
+  margin-left: 50px;
+}
+.btn {
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #000;
+  padding: 3px;
+  }
+.btn:hover {
+  cursor: pointer;
+}

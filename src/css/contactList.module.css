@@ -1,0 +1,9 @@
+.contact_list li {
+  padding: 7px 0;
+}
+.contact_list li button {
+  margin-left: 7px;
+}
+.btn {
+  composes: btn from 'main.css';
+}
