@@ -2,7 +2,7 @@ import styles from '../css/contactList.module.css';
 
 export const ContactList = ({ state, deleteContact }) => {
   const filteredContacts = state.contacts.filter(contact =>
-    contact.name.toLowerCase().startsWith(state.filter)
+    contact.name.toLowerCase().includes(state.filter)
   );
   return (
     <ul className={styles.contact_list}>
